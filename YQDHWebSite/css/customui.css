@@ -1,0 +1,43 @@
+﻿.content-wrapper, .main-header, .main-footer {
+    margin-left: 0px;
+}
+
+.map {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.pt{
+	padding-top: 10px;
+}
+
+.pl{
+	margin-left: 10px;
+}
+
+.fa-min {
+	font-size: .5em;
+	vertical-align: 70%;
+	padding-left:5px;
+}
+
+.r300{
+	margin-left: -300px;
+}
+
+/*web background*/  
+.container{  
+	display:table;  
+	height:100%;  
+}  
+
+.row{  
+	display: table-cell;  
+	vertical-align: middle;  
+}  
+/* centered columns styles */  
+.row-centered {  
+	text-align:center;  
+}
