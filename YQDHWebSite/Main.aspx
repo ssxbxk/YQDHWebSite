@@ -53,24 +53,22 @@
 		<div class="p-3">
 			<h5 class="pt"><strong>标注点</strong></h5>
 			<div class="dropdown-divider"></div>
-			<form>
-				<div class="form-group">
-					<label for="iptName">名称<i class="fa fa-star fa-min" style="color:red"></i></label>
-					<input type="text" class="form-control" id="iptName" placeholder="请输入标注点名称" maxLength="50"/>
-				</div>
-				<div class="form-group">
-					<label for="iptDesc">描述</label>
-					<textarea class="form-control" id="iptDesc" placeholder="请输入标注点描述" rows="10"></textarea>
-				</div>
-				<div class="form-group">
-					<label for="iptLonLat">经纬度<i class="fa fa-star fa-min" style="color:red"></i></label>
-					<input type="text" class="form-control" id="iptLonLat" placeholder="请输入标注点经纬度" maxLength="22"/>
-				</div>
-				<button class="btn btn-primary btn-sm" id="btnAddImage" data-toggle="modal" data-target="#AddImageModal">照片</button>
-				<button type="submit" class="btn btn-primary btn-sm" id="btnSave">保存</button>
-				<button class="btn btn-danger btn-sm" id="btnDelete">删除</button>
-				<button class="btn btn-default btn-sm" id="btnCancel">取消</button>
-			</form>
+			<div class="form-group">
+				<label for="iptName">名称<i class="fa fa-star fa-min" style="color:red"></i></label>
+				<input type="text" class="form-control" id="iptName" placeholder="请输入标注点名称" maxLength="50"/>
+			</div>
+			<div class="form-group">
+				<label for="iptDesc">描述</label>
+				<textarea class="form-control" id="iptDesc" placeholder="请输入标注点描述" rows="10"></textarea>
+			</div>
+			<div class="form-group">
+				<label for="iptLonLat">经纬度<i class="fa fa-star fa-min" style="color:red"></i></label>
+				<input type="text" class="form-control" id="iptLonLat" placeholder="请输入标注点经纬度" maxLength="22"/>
+			</div>
+			<button class="btn btn-primary btn-sm" id="btnAddImage" data-toggle="modal" data-target="#AddImageModal">照片</button>
+			<button type="submit" class="btn btn-primary btn-sm" id="btnSave">保存</button>
+			<button class="btn btn-danger btn-sm" id="btnDelete">删除</button>
+			<button class="btn btn-default btn-sm" id="btnCancel">取消</button>
 		</div>
 	</aside>
 	<!-- /.control-sidebar -->
